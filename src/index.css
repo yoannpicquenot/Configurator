@@ -1,3 +1,41 @@
+:root {
+  --primary__fc-color: white;
+
+  --primary__bg-color: #333130;
+  --primary__bg-color--light: #5c5a59;
+  --primary__bg-color--dark: #0c0807;
+}
+
 body {
   font-family: 'Roboto';
+}
+
+.MuiSvgIcon-root {
+  color: var(--primary__fc-color);
+}
+
+.Page {
+  background: var(--primary__bg-color--light);
+  color: var(--primary__fc-color);
+  position: absolute;
+  height: 100vh;
+  overflow: auto;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms ease-in;
 }

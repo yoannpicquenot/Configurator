@@ -1,0 +1,6 @@
+{
+    "extends": "airbnb",
+    "ignorePatterns": [
+        "serviceWorker.js"
+    ]
+}

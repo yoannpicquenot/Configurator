@@ -1,0 +1,9 @@
+.Sidebar .MuiDrawer-paper {
+    background-color: var(--primary__bg-color);
+    color: var(--primary__fc-color);
+    width: 250px;
+}
+
+.MuiTouchRipple-root * {
+    background-color: var(--primary__bg-color--light);
+}

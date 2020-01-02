@@ -1,19 +1,20 @@
 import React from 'react';
 import {
   BrowserRouter,
-} from "react-router-dom";
+} from 'react-router-dom';
 import 'normalize.css';
 
-import { Routes } from './pages/Routes';
-import { Sidebar } from './pages/Sidebar/Sidebar';
+import { Routes } from './components/Routes';
+import Sidebar from './components/Sidebar/Sidebar';
 
 import './App.css';
 
+/* eslint-disable */
 function App() {
   return (
     <BrowserRouter>
-      <Sidebar/>
-      <Routes/>
+      <Sidebar />
+      <Routes />
     </BrowserRouter>
   );
 }
