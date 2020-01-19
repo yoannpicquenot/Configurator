@@ -7,3 +7,7 @@
 .MuiTouchRipple-root * {
     background-color: var(--primary__bg-color--light);
 }
+
+.item-icon {
+    color: var(--primary__fc-color) !important;
+}

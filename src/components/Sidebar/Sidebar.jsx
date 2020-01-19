@@ -24,7 +24,7 @@ export default function Sidebar() {
       activeClassName="Mui-selected"
       divider
     >
-      <ListItemIcon>
+      <ListItemIcon className="item-icon">
         <route.icon />
       </ListItemIcon>
       <ListItemText primary={route.label} />

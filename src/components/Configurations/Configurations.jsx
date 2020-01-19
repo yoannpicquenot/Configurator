@@ -1,9 +1,21 @@
 import React from 'react';
+import ConfigurationList from '../ConfigurationList/ConfigurationList';
+
+import './Configurations.css';
 
 export default function Configurations() {
+  const configurations = [{
+    title: 'First configuration',
+  }, {
+    title: 'Second configuration',
+  }, {
+    title: 'Thirst configuration',
+  }, {
+    title: 'Four configuration',
+  }];
   return (
     <main className="Page ConfigurationsPage">
-      <h1>Configurations Page</h1>
+      <ConfigurationList list={configurations} />
     </main>
   );
 }
